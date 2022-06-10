@@ -1,0 +1,27 @@
+body {
+    background-color: #fffbf7;
+    text-align: center;
+}
+
+h1 {
+    color: #025157;
+}
+
+.text {
+    color: #46484c;
+}
+
+.promocional {
+    color: #8b8b8bcc;
+}
+
+button {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
