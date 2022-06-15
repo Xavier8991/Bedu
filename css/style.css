@@ -23,20 +23,22 @@ button {
 
 
 .header {
-    margin: 40px 20px 20px 0;
+    margin: 40px 20px 0;
     font-size: 0;
+    height: 45px;
 }
 
 .header >* {
     display: inline-block;
-    font-size: 1.6rem;
-    line-height: 4.5rem;
-    height: 100%;
+    font-size: 16px;
+    line-height: 45px;
     vertical-align: middle;
 }
 
 li {
     display: inline;
+    margin: 0 25px;
+    color: #025157;
 }
 
 .imagen {
@@ -52,17 +54,34 @@ li {
     text-align: left;
     color: #025157;
     font-weight: 500;
+    font-family: sans-serif;
 }
 
 .navbar ul {
     padding: 0;
+    height: 45px;
 }
 
 .acciones {
     width: 15%;
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: 600;
+}
+
+.acciones >* {
+    margin: 10px 0;
+}
+
+.acciones a {
+    color: #67b54b;
+}
+
+.acciones button {
+    color: #FFF;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border-radius: 5px;
 }
 
 .main {
