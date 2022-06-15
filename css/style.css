@@ -25,3 +25,41 @@ img {
     width: 100%;
     display: block;
 }
+
+.header {
+    margin: 4rem 2rem 2rem 1rem;
+}
+
+.header >* {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 4.5rem;
+    height: 100%;
+    vertical-align: middle;
+}
+
+li {
+    display: inline;
+}
+
+.imagen {
+    width: 15%;
+}
+
+.imagen > img {
+    width: 15%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.acciones {
+    width: 15%;
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
