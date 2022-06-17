@@ -1,10 +1,10 @@
 body {
     background-color: #fffbf7;
     text-align: center;
-    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+.titulo {
     color: #025157;
 }
 
@@ -12,7 +12,7 @@ h1 {
     color: #46484c;
 }
 
-.promocional {
+.text-gray {
     color: #8b8b8bcc;
 }
 
@@ -22,6 +22,12 @@ button {
     border: none;
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 .header {
     margin: 40px 20px 0;
@@ -85,6 +91,29 @@ li {
 }
 
 .main {
-    margin-top: 140px;
+    margin-top: 200px;
     text-align: center;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+    gap: 30px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video img {
+    margin-top: 10px;
+    width: 8%;
+}
+
+.parrafo {
+    color: #343434;
 }
