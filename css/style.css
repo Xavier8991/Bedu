@@ -20,6 +20,10 @@ button {
     background-color: #025157;
     color: #fff;
     border: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .fixed-header {
@@ -27,6 +31,7 @@ button {
     top: 0;
     left: 0;
     right: 0;
+    background-color: #fffbf7;
 }
 
 .header {
@@ -116,4 +121,105 @@ li {
 
 .parrafo {
     color: #343434;
+}
+
+.marcas {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-marcas {
+    flex: 2 1 0%;
+    padding-right: 80px;
+}
+
+.texto-marcas h2 {
+    font-size: 45px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.texto-marcas p {
+    color: #343434;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.texto-marcas img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.historia {
+    flex: 1 1 0%;
+}
+
+.card {
+    width: 100%;
+    max-width: 370px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.marca-imgs {
+    position: relative;
+}
+
+.marca {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marca img {
+    max-width: 75%;
+    width: 100%;
+    max-height: 16vw;
+}
+
+.media {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cuerpo {
+    padding: 25px;
+    flex: 1 1 auto;
+}
+
+.cuerpo h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+.carrito img {
+    width: 26px;
+    margin-right: 20px;
+}
+
+.historia-footer {
+    margin-bottom: 20px;
+    padding: 25px;
 }
