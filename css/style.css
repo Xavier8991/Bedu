@@ -127,10 +127,55 @@ li {
 .features {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2,1fr);
-    height: 660px
+    gap: 30px;
+    height: 660px;
+    background-color: #025157;
+    padding: 5% 10%;
 }
 
+.feature-card {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+    overflow: hidden;
+}
 
+.feature-content {
+    text-align: start;
+    width: 60%;
+}
+
+.feature-content img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.feature-content p {
+    margin: 0;
+    color: #46484c;
+}
+
+.feature-content a {
+    text-decoration: none;
+    color: #67b54b;
+}
+
+.example-img {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+.example-img img {
+    display: block;
+    width: 80%;
+    position: absolute;
+    right: -45px;
+    top: 8%;
+}
 
 .marcas {
     background-color: #a1d683;
