@@ -75,7 +75,6 @@ li {
 }
 
 .navbar {
-    width: 70%;
     text-align: left;
     color: #025157;
     font-weight: 500;
@@ -290,11 +289,28 @@ li {
     max-height: 16vw;
 }
 
+@media (max-width:468px) {
+    .marcas {
+        flex-direction: column;
+    }
+
+    .texto-marcas {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+}
+
 .media {
     width: 100%;
     max-height: 16vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+@media (max-width:468px) {
+    .media {
+        max-height: 100%;
+    }
 }
 
 .cuerpo {
