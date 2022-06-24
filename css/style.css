@@ -8,6 +8,7 @@ body {
     color: #025157;
 }
 
+
 .text {
     color: #46484c;
 }
@@ -24,6 +25,7 @@ button {
     border-radius: 8px;
     margin-bottom: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .fixed-header {
@@ -46,6 +48,12 @@ button {
     font-size: 16px;
     line-height: 45px;
     vertical-align: middle;
+}
+
+@media (max-width:468px) {
+    .header {
+        display: none;
+    }
 }
 
 li {
@@ -99,6 +107,17 @@ li {
 .main {
     margin-top: 200px;
     text-align: center;
+}
+
+.main h1 {
+    color: #025157;
+    font-size: 60px;
+}
+
+@media (max-width:468px) {
+    .main h1 {
+        font-size: 30px;
+    }
 }
 
 .promo {
@@ -276,4 +295,33 @@ li {
 .historia-footer {
     margin-bottom: 20px;
     padding: 25px;
+}
+
+.how-it-works {
+    padding: 5% 10%;
+}
+
+.how-it-works h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.how-it-works .description {
+    width: 60%;
+    color: #46484c;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.how-it-works .description a {
+    text-decoration: none;
+    color: #67b54b;
+}
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
