@@ -86,7 +86,6 @@ li {
 }
 
 .acciones {
-    width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
@@ -152,6 +151,12 @@ li {
 
 .parrafo {
     color: #343434;
+}
+
+@media (max-width:770px) {
+    .promo {
+        flex-direction: column;
+    }
 }
 
 @media (max-width:468px) {
@@ -237,6 +242,12 @@ li {
     padding-right: 80px;
 }
 
+@media (max-width:770px) {
+    .texto-marcas {
+        padding-right: 20px;
+    }
+}
+
 .texto-marcas h2 {
     font-size: 45px;
     line-height: 61px;
@@ -288,6 +299,7 @@ li {
     width: 100%;
     max-height: 16vw;
 }
+
 
 @media (max-width:468px) {
     .marcas {
@@ -342,31 +354,97 @@ li {
     padding: 25px;
 }
 
-.how-it-works {
+.how-does-it-works {
+    background-color: #fffbf7;
     padding: 5% 10%;
+    text-align: center;
 }
 
-.how-it-works h2 {
-    font-size: 50px;
-    line-height: 60px;
-    margin-bottom: 10px;
-}
-
-.how-it-works .description {
-    width: 60%;
+.description {
+    max-width: 60%;
     color: #46484c;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 1.5;
     margin: 0 auto;
     margin-bottom: 16px;
 }
 
-.how-it-works .description a {
-    text-decoration: none;
+.description a {
     color: #67b54b;
+    text-decoration: none;
 }
 
-.works {
+.steps {
+    margin-top: 70px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width:770px) {
+    .steps {
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+    }
+}
+
+@media (max-width:468px) {
+    .steps {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+}
+
+.steps .card-step {
+    background-color: #FFF;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.card-step .card-step-image {
+    position: relative;
+    height: 350px;
+}
+
+.card-step .card-step-image .card-step-bg {
+    width: 100%;
+    height: 100%;
+}
+
+.card-step .card-step-image .card-step-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+}
+
+.card-step .card-step-body {
+    padding: 25px;
+}
+
+.card-step .card-step-body h3{
+    font-size: 30px;
+    line-height: 36px;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-step .card-step-body p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 16px;
+}
+
+.card-step .card-step-body a {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
 }
