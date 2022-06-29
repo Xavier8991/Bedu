@@ -326,7 +326,7 @@ li {
 }
 
 .cuerpo {
-    padding: 25px;
+    padding: 20px;
     flex: 1 1 auto;
 }
 
@@ -352,6 +352,10 @@ li {
 .historia-footer {
     margin-bottom: 20px;
     padding: 25px;
+}
+
+.carousel-indicators {
+    position: unset;
 }
 
 .how-does-it-works {
